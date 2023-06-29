@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* Styles for body */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url("bg.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.ques{
+  width: 940px;
+  background-color: #fff;
+  min-height: 350px;
+  padding: 80px 90px;
+  border-radius: 15px;
+}
+/* Styles for h1 */
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 32px;
+  text-align: center;
+}
+
+/* Styles for p */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Styles for form */
+form {
+  margin-bottom: 20px;
+}
+
+/* Styles for label */
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Styles for input[type="radio"] */
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Styles for button */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for button:hover */
+button:hover {
+  background-color: #3e8e41;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>The Walking Dead Trivia Challenge</title>
+ <link rel="stylesheet" type="text/css" href="styles-ques.css">
+ <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+ <main class="ques">
+   <header>
+     <center>
+       <h1>The Walking Dead Trivia Challenge</h1>
+     </center>
+   </header>
+     <br><br>
+  <div id="clue1">
+   <h2>Clue 1:</h2>
+   <p>What is the best way to avoid attracting zombies when traveling?</p>
+   <form>
+    <input type="radio" name="answer1" value="a">Wear a gas mask<br>
+    <input type="radio" name="answer1" value="b">Move quickly and loudly<br>
+    <input type="radio" name="answer1" value="c">Cover yourself in zombie guts<br>
+    <input type="radio" name="answer1" value="d">Use bright lights to scare them away<br>
+   </form>
+   <button onclick="checkAnswer(1)">Submit Answer</button>
+  </div>
+  <div id="clue2" style="display:none;">
+   <h2>Clue 2:</h2>
+   <p>What is the name of the first zombie movie, released in 1932?</p>
+   <form>
+    <input type="radio" name="answer2" value="a">Night of the Living Dead<br>
+    <input type="radio" name="answer2" value="b">White Zombie<br>
+    <input type="radio" name="answer2" value="c">Dawn of the Dead<br>
+    <input type="radio" name="answer2" value="d">28 Days Later<br>
+   </form>
+   <button onclick="checkAnswer(2)">Submit Answer</button>
+  </div>
+  <div id="clue3" style="display:none;">
+   <h2>Clue 3:</h2>
+   <p>Which of the following is not a common way to become infected with the zombie virus in popular culture?</p>
+   <form>
+    <input type="radio" name="answer3" value="a">Being bitten by a zombie<br>
+    <input type="radio" name="answer3" value="b">Contact with bodily fluids of a zombie<br>
+    <input type="radio" name="answer3" value="c">Exposure to radiation<br>
+    <input type="radio" name="answer3" value="d">Ingestion of contaminated food or water<br>
+   </form>
+   <button onclick="checkAnswer(3)">Submit Answer</button>
+  </div>
+  <div id="clue4" style="display:none;">
+   <h2>Clue 4:</h2>
+   <p>What is the most effective way to kill a zombie?</p>
+   <form>
+    <input type="radio" name="answer4" value="a">Shoot it in the chest<br>
+<input type="radio" name="answer4" value="b">Cut off its limbs<br>
+<input type="radio" name="answer4" value="c">Destroy its brain<br>
+<input type="radio" name="answer4" value="d">Burn it with fire<br>
+</form>
+<button onclick="checkAnswer(4)">Submit Answer</button>
+</div>
+
+ <div id="clue5" style="display:none">
+  <p>Which of the following is most common type of zombie in popular culture?</p>
+  <form>
+   <input type="radio" name="answer5" value="a">Slow zombies<br>
+   <input type="radio" name="answer5" value="b">Fast zombies<br>
+   <input type="radio" name="answer5" value="c">Telepathic zombies<br>
+   <input type="radio" name="answer5" value="d">Intelligent zombies<br>
+  </form>
+  <button onclick="checkAnswer(5)">Submit Answer</button>
+ </div>
+
+
+
+</div>
+</body>
+</html>
