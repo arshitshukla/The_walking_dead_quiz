@@ -10,6 +10,9 @@ body {
   background-color: #f0f0f0;
   background-image: url("bg.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .container {
